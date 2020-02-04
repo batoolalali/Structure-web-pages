@@ -10,15 +10,16 @@ header h1 {
 
 header nav 
 {
-    color: turquoise;
+    color: gray;
 }
 
 body {
-    background-color: lightblue;
+    background-color: whitesmoke;
   }
 
 header nav ul li {
     display: inline-block;
+    padding: 10px;
 }
 
 .image{
@@ -29,5 +30,5 @@ footer{
     margin: auto;
     background-color: black;
     color: white;
+}e;
 }
-
