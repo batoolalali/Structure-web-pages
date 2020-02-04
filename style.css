@@ -6,6 +6,7 @@ header
 
 header h1 {
     color: white;
+    margin: auto;
 }
 
 header nav 
@@ -30,5 +31,4 @@ footer{
     margin: auto;
     background-color: black;
     color: white;
-}e;
 }
