@@ -1,0 +1,33 @@
+header
+{
+    background-color: Black;
+
+}
+
+header h1 {
+    color: white;
+}
+
+header nav 
+{
+    color: turquoise;
+}
+
+body {
+    background-color: lightblue;
+  }
+
+header nav ul li {
+    display: inline-block;
+}
+
+.image{
+    width: 300px;
+}
+
+footer{
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
