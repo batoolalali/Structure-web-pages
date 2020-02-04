@@ -1,6 +1,7 @@
 var conti;
 var movie= ' is a good Choice';
 var sugg;
+var c;
 
 if (confirm("Press Ok to continue"))
 {
@@ -31,3 +32,6 @@ if (yourmovie == 'crime' )
 
     
     document.write('<spam>'+sugg+'</spam>');
+
+    var color = prompt("PLease enter the color for this page.")
+document.getElementsByTagName("body")[0].style.backgroundColor = color;
