@@ -34,4 +34,4 @@ if (yourmovie == 'crime' )
     document.write('<spam>'+sugg+'</spam>');
 
     var color = prompt("PLease enter the color for this page.")
-document.getElementsByTagName("body")[0].style.backgroundColor = color;
+    document.body.style.background= color;tyle.backgroundColor = color;
