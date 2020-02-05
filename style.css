@@ -9,11 +9,10 @@ header h1 {
     margin: auto;
 }
 
-header nav li a 
-{
-    color: gray;
-}
-
+a {
+    text-decoration: none;
+    color: lightblue;
+  }
 body {
     background-color: whitesmoke;
   }
@@ -32,4 +31,5 @@ footer{
     margin: auto;
     background-color: black;
     color: white;
+}olor: white;
 }
