@@ -9,7 +9,23 @@ if (confirm("Press Ok to continue"))
 }
 
 document.write('<h3>'+conti+'</h3>');
+
 var yourmovie = prompt("enter your favorite movie type; crime, drama or comedy");
+
+function asking()
+{   var a;
+     a = prompt("enter your favorite movie type; crime, drama or comedy");
+     return a;
+
+}
+
+while (yourmovie !== "crime" && yourmovie !== "drama" && yourmovie !== "comedy")
+{
+   
+    yourmovie= asking();
+}
+
+// var yourmovie = prompt("enter your favorite movie type; crime, drama or comedy");
 
 
 document.write('<spam>'+yourmovie+'</spam>');
@@ -49,4 +65,4 @@ if (YourM== 'crime' )
 
 
     var color = prompt("PLease enter the color for this page.")
-    document.body.style.background= color;tyle.backgroundColor = color;
+    document.body.style.background= color;
