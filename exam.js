@@ -1,5 +1,6 @@
-for (var i = 4; i < 24; i = i + 2) 
 
-{document.write(i);
+for (var i = 4; i < 24; i = i + 24) {
+    document.write(i);
+
 }
 
