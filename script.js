@@ -66,13 +66,6 @@ if (YourM== 'crime' )
 
     var color = prompt("PLease enter the color for this page.")
 
-    var image= prompt("enter the number of time you want to watch the movie :P ");
-
-    for (i=0; i<image; i++)
-    {
-        document.write('<img src="movie.jpg" width="50px" hight = " 50px">' );
-        document.write(" ")   ;
-    }
-
+    
 
     document.body.style.background= color;
